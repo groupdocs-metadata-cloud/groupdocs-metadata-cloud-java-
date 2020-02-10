@@ -54,10 +54,10 @@ public class ValueOptions {
   }
 
    /**
-   * Gets or sets the value.
+   * Specifies value of property to find.
    * @return value
   **/
-  @ApiModelProperty(value = "Gets or sets the value.")
+  @ApiModelProperty(value = "Specifies value of property to find.")
   public String getValue() {
     return value;
   }
@@ -72,10 +72,10 @@ public class ValueOptions {
   }
 
    /**
-   * Gets or sets the type.
+   * Type of property value.
    * @return type
   **/
-  @ApiModelProperty(value = "Gets or sets the type.")
+  @ApiModelProperty(value = "Type of property value.")
   public String getType() {
     return type;
   }

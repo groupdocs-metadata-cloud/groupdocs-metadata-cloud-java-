@@ -114,14 +114,14 @@ public class MetadataRemoveApiTests extends BaseApiTest {
 	}
 
 	@Test
-	public void RemoveApiTest_PropertyNameWholeWord() throws ApiException {
+	public void RemoveApiTest_PropertyNameExactPhrase() throws ApiException {
 		// Arrange
 		RemoveOptions options = new RemoveOptions();
 		SearchCriteria searchCriteria = new SearchCriteria();
 		NameOptions nameOptions = new NameOptions();
 		nameOptions.setValue("NameOfApplication");
 		MatchOptions matchOptions = new MatchOptions();
-		matchOptions.setWholeWord(true);
+		matchOptions.setExactPhrase(true);
 		nameOptions.setMatchOptions(matchOptions);
 		searchCriteria.setNameOptions(nameOptions);
 		options.setSearchCriteria(searchCriteria);

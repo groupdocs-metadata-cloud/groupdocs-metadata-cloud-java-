@@ -42,28 +42,28 @@ import java.io.IOException;
  */
 @ApiModel(description = "Match string options")
 public class MatchOptions {
-  @SerializedName("wholeWord")
-  private Boolean wholeWord = null;
+  @SerializedName("exactPhrase")
+  private Boolean exactPhrase = null;
 
   @SerializedName("isRegex")
   private Boolean isRegex = null;
 
-  public MatchOptions wholeWord(Boolean wholeWord) {
-    this.wholeWord = wholeWord;
+  public MatchOptions exactPhrase(Boolean exactPhrase) {
+    this.exactPhrase = exactPhrase;
     return this;
   }
 
    /**
-   * Gets or sets a value indicating whether to match exact string.
-   * @return wholeWord
+   * Gets or sets a value indicating whether to match exact string phrase.
+   * @return exactPhrase
   **/
-  @ApiModelProperty(required = true, value = "Gets or sets a value indicating whether to match exact string.")
-  public Boolean getWholeWord() {
-    return wholeWord;
+  @ApiModelProperty(required = true, value = "Gets or sets a value indicating whether to match exact string phrase.")
+  public Boolean getExactPhrase() {
+    return exactPhrase;
   }
 
-  public void setWholeWord(Boolean wholeWord) {
-    this.wholeWord = wholeWord;
+  public void setExactPhrase(Boolean exactPhrase) {
+    this.exactPhrase = exactPhrase;
   }
 
   public MatchOptions isRegex(Boolean isRegex) {
@@ -72,10 +72,10 @@ public class MatchOptions {
   }
 
    /**
-   * Gets or sets a value indicating whether this instance is regular expression.
+   * Gets or sets a value indicating whether to match by regular expression.
    * @return isRegex
   **/
-  @ApiModelProperty(required = true, value = "Gets or sets a value indicating whether this instance is regular expression.")
+  @ApiModelProperty(required = true, value = "Gets or sets a value indicating whether to match by regular expression.")
   public Boolean getIsRegex() {
     return isRegex;
   }
@@ -94,13 +94,13 @@ public class MatchOptions {
       return false;
     }
     MatchOptions matchOptions = (MatchOptions) o;
-    return Objects.equals(this.wholeWord, matchOptions.wholeWord) &&
+    return Objects.equals(this.exactPhrase, matchOptions.exactPhrase) &&
         Objects.equals(this.isRegex, matchOptions.isRegex);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(wholeWord, isRegex);
+    return Objects.hash(exactPhrase, isRegex);
   }
 
 
@@ -109,7 +109,7 @@ public class MatchOptions {
     StringBuilder sb = new StringBuilder();
     sb.append("class MatchOptions {\n");
     
-    sb.append("    wholeWord: ").append(toIndentedString(wholeWord)).append("\n");
+    sb.append("    exactPhrase: ").append(toIndentedString(exactPhrase)).append("\n");
     sb.append("    isRegex: ").append(toIndentedString(isRegex)).append("\n");
     sb.append("}");
     return sb.toString();

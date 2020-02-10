@@ -58,10 +58,10 @@ public class AddProperty {
   }
 
    /**
-   * Gets or sets the value.
+   * The value of the property.
    * @return value
   **/
-  @ApiModelProperty(value = "Gets or sets the value.")
+  @ApiModelProperty(value = "The value of the property.")
   public String getValue() {
     return value;
   }
@@ -76,10 +76,10 @@ public class AddProperty {
   }
 
    /**
-   * Gets or sets the type.
+   * Value type.
    * @return type
   **/
-  @ApiModelProperty(value = "Gets or sets the type.")
+  @ApiModelProperty(value = "Value type.")
   public String getType() {
     return type;
   }
@@ -94,10 +94,10 @@ public class AddProperty {
   }
 
    /**
-   * Gets or sets the search criteria.
+   * Options to define metadata property tag or name.
    * @return searchCriteria
   **/
-  @ApiModelProperty(value = "Gets or sets the search criteria.")
+  @ApiModelProperty(value = "Options to define metadata property tag or name.")
   public SearchCriteriaWithoutValue getSearchCriteria() {
     return searchCriteria;
   }

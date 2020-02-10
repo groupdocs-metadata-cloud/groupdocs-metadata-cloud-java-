@@ -55,10 +55,10 @@ public class NameOptions {
   }
 
    /**
-   * Gets or sets the value.
+   * The value for name matching.
    * @return value
   **/
-  @ApiModelProperty(value = "Gets or sets the value.")
+  @ApiModelProperty(value = "The value for name matching.")
   public String getValue() {
     return value;
   }
@@ -73,10 +73,10 @@ public class NameOptions {
   }
 
    /**
-   * Gets or sets the match options.
+   * Specifies how to find property name.
    * @return matchOptions
   **/
-  @ApiModelProperty(value = "Gets or sets the match options.")
+  @ApiModelProperty(value = "Specifies how to find property name.")
   public MatchOptions getMatchOptions() {
     return matchOptions;
   }

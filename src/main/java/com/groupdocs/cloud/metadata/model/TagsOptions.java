@@ -52,10 +52,10 @@ public class TagsOptions {
   }
 
    /**
-   * Gets or sets the file information.
+   * The file information.
    * @return fileInfo
   **/
-  @ApiModelProperty(value = "Gets or sets the file information.")
+  @ApiModelProperty(value = "The file information.")
   public FileInfo getFileInfo() {
     return fileInfo;
   }

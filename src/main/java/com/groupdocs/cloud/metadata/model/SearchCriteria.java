@@ -55,10 +55,10 @@ public class SearchCriteria extends SearchCriteriaWithoutValue {
   }
 
    /**
-   * Gets or sets the value options.
+   * Options to find property by value.
    * @return valueOptions
   **/
-  @ApiModelProperty(value = "Gets or sets the value options.")
+  @ApiModelProperty(value = "Options to find property by value.")
   public ValueOptions getValueOptions() {
     return valueOptions;
   }

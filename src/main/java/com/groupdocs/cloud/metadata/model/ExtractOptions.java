@@ -56,10 +56,10 @@ public class ExtractOptions {
   }
 
    /**
-   * Gets or sets the file information.
+   * The file information.
    * @return fileInfo
   **/
-  @ApiModelProperty(value = "Gets or sets the file information.")
+  @ApiModelProperty(value = "The file information.")
   public FileInfo getFileInfo() {
     return fileInfo;
   }
@@ -74,10 +74,10 @@ public class ExtractOptions {
   }
 
    /**
-   * Gets or sets the search criteria.
+   * Options to find properties.
    * @return searchCriteria
   **/
-  @ApiModelProperty(value = "Gets or sets the search criteria.")
+  @ApiModelProperty(value = "Options to find properties.")
   public SearchCriteria getSearchCriteria() {
     return searchCriteria;
   }

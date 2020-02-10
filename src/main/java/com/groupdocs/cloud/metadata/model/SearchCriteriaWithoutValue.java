@@ -56,10 +56,10 @@ public class SearchCriteriaWithoutValue {
   }
 
    /**
-   * Gets or sets the tag options.
+   * Options to find property by tag.
    * @return tagOptions
   **/
-  @ApiModelProperty(value = "Gets or sets the tag options.")
+  @ApiModelProperty(value = "Options to find property by tag.")
   public TagOptions getTagOptions() {
     return tagOptions;
   }
@@ -74,10 +74,10 @@ public class SearchCriteriaWithoutValue {
   }
 
    /**
-   * Gets or sets the name options.
+   * Options to find property by name.
    * @return nameOptions
   **/
-  @ApiModelProperty(value = "Gets or sets the name options.")
+  @ApiModelProperty(value = "Options to find property by name.")
   public NameOptions getNameOptions() {
     return nameOptions;
   }

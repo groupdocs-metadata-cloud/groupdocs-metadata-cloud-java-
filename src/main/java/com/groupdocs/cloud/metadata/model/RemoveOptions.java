@@ -59,10 +59,10 @@ public class RemoveOptions {
   }
 
    /**
-   * Gets or sets the file information.
+   * The file information.
    * @return fileInfo
   **/
-  @ApiModelProperty(value = "Gets or sets the file information.")
+  @ApiModelProperty(value = "The file information.")
   public FileInfo getFileInfo() {
     return fileInfo;
   }
@@ -77,10 +77,10 @@ public class RemoveOptions {
   }
 
    /**
-   * Gets or sets the output folder.
+   * The output folder.
    * @return outputFolder
   **/
-  @ApiModelProperty(value = "Gets or sets the output folder.")
+  @ApiModelProperty(value = "The output folder.")
   public String getOutputFolder() {
     return outputFolder;
   }
@@ -95,10 +95,10 @@ public class RemoveOptions {
   }
 
    /**
-   * Gets or sets the search criteria.
+   * Options to remove properties.
    * @return searchCriteria
   **/
-  @ApiModelProperty(value = "Gets or sets the search criteria.")
+  @ApiModelProperty(value = "Options to remove properties.")
   public SearchCriteria getSearchCriteria() {
     return searchCriteria;
   }

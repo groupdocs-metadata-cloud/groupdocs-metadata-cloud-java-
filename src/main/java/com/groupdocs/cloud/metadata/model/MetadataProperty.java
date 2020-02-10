@@ -66,10 +66,10 @@ public class MetadataProperty {
   }
 
    /**
-   * Gets or sets the name.
+   * Name of the property.
    * @return name
   **/
-  @ApiModelProperty(value = "Gets or sets the name.")
+  @ApiModelProperty(value = "Name of the property.")
   public String getName() {
     return name;
   }
@@ -84,10 +84,10 @@ public class MetadataProperty {
   }
 
    /**
-   * Gets or sets the value.
+   * Value of the property.
    * @return value
   **/
-  @ApiModelProperty(value = "Gets or sets the value.")
+  @ApiModelProperty(value = "Value of the property.")
   public String getValue() {
     return value;
   }
@@ -102,10 +102,10 @@ public class MetadataProperty {
   }
 
    /**
-   * Gets or sets the type of the property.
+   * Property type.
    * @return propertyType
   **/
-  @ApiModelProperty(value = "Gets or sets the type of the property.")
+  @ApiModelProperty(value = "Property type.")
   public String getPropertyType() {
     return propertyType;
   }
@@ -120,10 +120,10 @@ public class MetadataProperty {
   }
 
    /**
-   * Gets or sets the access level.
+   * Property access level.
    * @return accessLevel
   **/
-  @ApiModelProperty(value = "Gets or sets the access level.")
+  @ApiModelProperty(value = "Property access level.")
   public String getAccessLevel() {
     return accessLevel;
   }
@@ -146,10 +146,10 @@ public class MetadataProperty {
   }
 
    /**
-   * Gets or sets the tags.
+   * Collection of the property tags.
    * @return tags
   **/
-  @ApiModelProperty(value = "Gets or sets the tags.")
+  @ApiModelProperty(value = "Collection of the property tags.")
   public List<Tag> getTags() {
     return tags;
   }

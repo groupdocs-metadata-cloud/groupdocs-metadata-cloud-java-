@@ -55,10 +55,10 @@ public class TagOptions {
   }
 
    /**
-   * Gets or sets the name of the possible.
+   * A part or a possible tag name.
    * @return possibleName
   **/
-  @ApiModelProperty(value = "Gets or sets the name of the possible.")
+  @ApiModelProperty(value = "A part or a possible tag name.")
   public String getPossibleName() {
     return possibleName;
   }
@@ -73,10 +73,10 @@ public class TagOptions {
   }
 
    /**
-   * Gets or sets the exact tag.
+   * Options to specify exact tag.
    * @return exactTag
   **/
-  @ApiModelProperty(value = "Gets or sets the exact tag.")
+  @ApiModelProperty(value = "Options to specify exact tag.")
   public Tag getExactTag() {
     return exactTag;
   }

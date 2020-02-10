@@ -61,10 +61,10 @@ public class MetadataPackage {
   }
 
    /**
-   * Gets or sets the name of the package.
+   * Name of the metadata package.
    * @return packageName
   **/
-  @ApiModelProperty(value = "Gets or sets the name of the package.")
+  @ApiModelProperty(value = "Name of the metadata package.")
   public String getPackageName() {
     return packageName;
   }
@@ -87,10 +87,10 @@ public class MetadataPackage {
   }
 
    /**
-   * Gets or sets the package properties.
+   * Properties of the metadata package.
    * @return packageProperties
   **/
-  @ApiModelProperty(value = "Gets or sets the package properties.")
+  @ApiModelProperty(value = "Properties of the metadata package.")
   public List<MetadataProperty> getPackageProperties() {
     return packageProperties;
   }
@@ -113,10 +113,10 @@ public class MetadataPackage {
   }
 
    /**
-   * Gets or sets the inner packages.
+   * Inner packages of current metadata package.
    * @return innerPackages
   **/
-  @ApiModelProperty(value = "Gets or sets the inner packages.")
+  @ApiModelProperty(value = "Inner packages of current metadata package.")
   public List<MetadataPackage> getInnerPackages() {
     return innerPackages;
   }

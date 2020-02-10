@@ -54,10 +54,10 @@ public class Tag {
   }
 
    /**
-   * Gets or sets the name.
+   * Name of the tag.
    * @return name
   **/
-  @ApiModelProperty(value = "Gets or sets the name.")
+  @ApiModelProperty(value = "Name of the tag.")
   public String getName() {
     return name;
   }
@@ -72,10 +72,10 @@ public class Tag {
   }
 
    /**
-   * Gets or sets the category.
+   * Category of the tag.
    * @return category
   **/
-  @ApiModelProperty(value = "Gets or sets the category.")
+  @ApiModelProperty(value = "Category of the tag.")
   public String getCategory() {
     return category;
   }

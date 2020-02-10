@@ -126,14 +126,14 @@ public class MetadataExtractApiTests extends BaseApiTest {
 	}
 
 	@Test
-	public void ExtractApiTest_PropertyNameWholeWord() throws ApiException {
+	public void ExtractApiTest_PropertyNameExactPhrase() throws ApiException {
 		// Arrange
 		ExtractOptions options = new ExtractOptions();
 		SearchCriteria searchCriteria = new SearchCriteria();
 		NameOptions nameOptions = new NameOptions();
 		nameOptions.setValue("MimeType");
 		MatchOptions matchOptions = new MatchOptions();
-		matchOptions.setWholeWord(true);
+		matchOptions.setExactPhrase(true);
 		nameOptions.setMatchOptions(matchOptions);
 		searchCriteria.setNameOptions(nameOptions);
 		options.setSearchCriteria(searchCriteria);

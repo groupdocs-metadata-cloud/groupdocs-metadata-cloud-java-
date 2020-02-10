@@ -61,10 +61,10 @@ public class SetOptions {
   }
 
    /**
-   * Gets or sets the file information.
+   * The file information in storage.
    * @return fileInfo
   **/
-  @ApiModelProperty(value = "Gets or sets the file information.")
+  @ApiModelProperty(value = "The file information in storage.")
   public FileInfo getFileInfo() {
     return fileInfo;
   }
@@ -87,10 +87,10 @@ public class SetOptions {
   }
 
    /**
-   * Gets or sets the properties.
+   * Collection of properties to set.
    * @return properties
   **/
-  @ApiModelProperty(value = "Gets or sets the properties.")
+  @ApiModelProperty(value = "Collection of properties to set.")
   public List<SetProperty> getProperties() {
     return properties;
   }
@@ -105,10 +105,10 @@ public class SetOptions {
   }
 
    /**
-   * Gets or sets the output folder.
+   * The output folder.
    * @return outputFolder
   **/
-  @ApiModelProperty(value = "Gets or sets the output folder.")
+  @ApiModelProperty(value = "The output folder.")
   public String getOutputFolder() {
     return outputFolder;
   }

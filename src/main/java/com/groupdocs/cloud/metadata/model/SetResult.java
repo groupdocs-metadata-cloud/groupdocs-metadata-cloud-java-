@@ -57,10 +57,10 @@ public class SetResult {
   }
 
    /**
-   * Gets or sets the path.
+   * Resultant file path in storage.
    * @return path
   **/
-  @ApiModelProperty(value = "Gets or sets the path.")
+  @ApiModelProperty(value = "Resultant file path in storage.")
   public String getPath() {
     return path;
   }
@@ -75,10 +75,10 @@ public class SetResult {
   }
 
    /**
-   * Gets or sets the URL.
+   * Resultant file download url.
    * @return url
   **/
-  @ApiModelProperty(value = "Gets or sets the URL.")
+  @ApiModelProperty(value = "Resultant file download url.")
   public String getUrl() {
     return url;
   }
@@ -93,10 +93,10 @@ public class SetResult {
   }
 
    /**
-   * Gets or sets the set count.
+   * Total count of set properties.
    * @return setCount
   **/
-  @ApiModelProperty(required = true, value = "Gets or sets the set count.")
+  @ApiModelProperty(required = true, value = "Total count of set properties.")
   public Integer getSetCount() {
     return setCount;
   }

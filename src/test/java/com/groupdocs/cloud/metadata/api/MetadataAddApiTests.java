@@ -131,7 +131,7 @@ public class MetadataAddApiTests extends BaseApiTest {
 	}
 
 	@Test
-	public void AddApiTest_PropertyNameWholeWord() throws ApiException {
+	public void AddApiTest_PropertyNameExactPhrase() throws ApiException {
 		// Arrange
 		AddOptions options = new AddOptions();
 		ArrayList<AddProperty> properties = new ArrayList<AddProperty>();
@@ -140,7 +140,7 @@ public class MetadataAddApiTests extends BaseApiTest {
 		NameOptions nameOptions = new NameOptions();
 		nameOptions.setValue("Lastprinted");
 		MatchOptions matchOptions = new MatchOptions();
-		matchOptions.setWholeWord(true);
+		matchOptions.setExactPhrase(true);
 		nameOptions.setMatchOptions(matchOptions);
 		searchCriteria.setNameOptions(nameOptions);
 		property.setSearchCriteria(searchCriteria);

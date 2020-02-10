@@ -58,10 +58,10 @@ public class SetProperty {
   }
 
    /**
-   * Creates new value.
+   * A new value for property.
    * @return newValue
   **/
-  @ApiModelProperty(value = "Creates new value.")
+  @ApiModelProperty(value = "A new value for property.")
   public String getNewValue() {
     return newValue;
   }
@@ -76,10 +76,10 @@ public class SetProperty {
   }
 
    /**
-   * Gets or sets the type.
+   * A new value type.
    * @return type
   **/
-  @ApiModelProperty(value = "Gets or sets the type.")
+  @ApiModelProperty(value = "A new value type.")
   public String getType() {
     return type;
   }
@@ -94,10 +94,10 @@ public class SetProperty {
   }
 
    /**
-   * Gets or sets the search criteria.
+   * Options to find destination property.
    * @return searchCriteria
   **/
-  @ApiModelProperty(value = "Gets or sets the search criteria.")
+  @ApiModelProperty(value = "Options to find destination property.")
   public SearchCriteria getSearchCriteria() {
     return searchCriteria;
   }

@@ -52,10 +52,10 @@ public class TagsResult {
   }
 
    /**
-   * Gets or sets the root package.
+   * Root metadata package of the file.
    * @return rootPackage
   **/
-  @ApiModelProperty(value = "Gets or sets the root package.")
+  @ApiModelProperty(value = "Root metadata package of the file.")
   public MetadataPackage getRootPackage() {
     return rootPackage;
   }

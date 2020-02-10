@@ -157,7 +157,7 @@ public class MetadataSetApiTests extends BaseApiTest {
 	}
 
 	@Test
-	public void SetApiTest_PropertyNameWholeWord() throws ApiException {
+	public void SetApiTest_PropertyNameExactPhrase() throws ApiException {
 		// Arrange
 		SetOptions options = new SetOptions();
 		ArrayList<SetProperty> properties = new ArrayList<SetProperty>();
@@ -166,7 +166,7 @@ public class MetadataSetApiTests extends BaseApiTest {
 		NameOptions nameOptions = new NameOptions();
 		nameOptions.setValue("NameOfApplication");
 		MatchOptions matchOptions = new MatchOptions();
-		matchOptions.setWholeWord(true);
+		matchOptions.setExactPhrase(true);
 		nameOptions.setMatchOptions(matchOptions);
 		searchCriteria.setNameOptions(nameOptions);
 		property.setSearchCriteria(searchCriteria);

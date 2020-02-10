@@ -58,10 +58,10 @@ public class ExtractResult {
   }
 
    /**
-   * Gets or sets the metadata tree.
+   * Whole metadata tree of the file.
    * @return metadataTree
   **/
-  @ApiModelProperty(value = "Gets or sets the metadata tree.")
+  @ApiModelProperty(value = "Whole metadata tree of the file.")
   public MetadataPackage getMetadataTree() {
     return metadataTree;
   }
@@ -84,10 +84,10 @@ public class ExtractResult {
   }
 
    /**
-   * Gets or sets the properties.
+   * Metadata properties found by tag.
    * @return properties
   **/
-  @ApiModelProperty(value = "Gets or sets the properties.")
+  @ApiModelProperty(value = "Metadata properties found by tag.")
   public List<MetadataProperty> getProperties() {
     return properties;
   }
