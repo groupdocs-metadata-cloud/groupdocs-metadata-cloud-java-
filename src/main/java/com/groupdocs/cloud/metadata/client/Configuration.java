@@ -36,7 +36,7 @@ public class Configuration {
 
     private String apiVersion = "/v1.0";
 
-    private String apiBaseUrl = "https://api-qa.groupdocs.cloud";
+    private String apiBaseUrl = "https://api.groupdocs.cloud";
 
     private int timeout = 60 * 1000;
 
